@@ -7,7 +7,7 @@ Ubuntu environment<br />
 Python 2.7<br />
 Anaconda<br />
 Python 3.7<br />
-light GBM<br />
+LightGBM <br />
 RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 
 
