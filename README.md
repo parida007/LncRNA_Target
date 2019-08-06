@@ -17,10 +17,7 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 2. Download and Install PARASOR
     > git clone https://github.com/carushi/ParasoR <br />
 3. Download and Install RNAstructure 6.0
-    Go to https://rna.urmc.rochester.edu/RNAstructure.html <br />
-    Download RNAstructure<br />
-    Need to be registered first<br />
-    Goto archived version<br />
+    User need to be registered first<br />
     Download RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
     >cd home/rootuser/ParasoR/script/<br />
     >wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
