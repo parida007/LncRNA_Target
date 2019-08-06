@@ -47,7 +47,6 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>cp /home/lncpred/ParasoR/script/features_predict.py . <br />
     >$>cp /home/lncpred/ParasoR/script/basecount.py .<br />
     >$>cp /home/lncpred/ParasoR/script/Dataset_Generator.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/RNAstructure/cal_hybrid.py RNAstructure/.<br />
     >$>cp /home/lncpred/ParasoR/script/ML_Prediction.py .<br />
     >$>cp /home/lncpred/ParasoR/script/Predict_Binding.py .<br />
     >$>cp /home/lncpred/ParasoR/script/baggingPU.py .<br />
