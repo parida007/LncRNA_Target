@@ -64,7 +64,7 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>cp -a /home/lncpred/ParasoR/script/js/. js/<br />
 8.  To run lncpred:<br />
     >$>python Main.py<br />
-    **All the input must be named as query.fa (LncRNA sequences) & target.fa(mRNA sequences)
+    **All the input must be named as query.fa (LncRNA sequences) & target.fa(mRNA sequences)<br />
     Result:<br />
     a)final_energy_data.txt<br />
     b)LncRNA_MRNA_Binding_Prediction.csv
