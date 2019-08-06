@@ -19,10 +19,10 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 3.  Download and Install PARASOR
     >$>cd /home/lncpredr<br />
     >$> git clone https://github.com/carushi/ParasoR <br />
-    >$>cd ParasoR
-    >$>./configure
-    >$>make
-    >$>make install
+    >$>cd ParasoR<br />
+    >$>./configure<br />
+    >$>make<br />
+    >$>make install<br />
 3. Download and Install RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
     >$>cd home/rootuser/ParasoR/script/<br />
     >$>wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
