@@ -14,7 +14,7 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 ### How to Install and Run
 1. Login to the system as root user <br />
     >cd /home/user <br />
-2. Download and Install PARASOR check installation is successful or not
+2. Download and Install PARASOR
     > git clone https://github.com/carushi/ParasoR <br />
 3. Download and Install RNAstructure 6.0
     Go to https://rna.urmc.rochester.edu/RNAstructure.html <br />
