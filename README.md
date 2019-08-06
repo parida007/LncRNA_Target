@@ -38,34 +38,33 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 5.  Install LightGBM, Biopython
     >$>/home/lncpred/anaconda3/bin/pip install lightgbm <br />
     >$>/home/lncpred/anaconda3/bin/pip install biopython <br />
-6.  Keep all the python (.py) and machine learning moel (.sav) files in 
-    /home/user/ParasoR/script/ and cal_hybrid.py will be in RNAstructure/ only.<br />
-    >$>cp /home/user/ParasoR/script/Main.py . <br />
-    >$>cp /home/user/ParasoR/script/Extract_Feature.py . <br />
-    >$>cp /home/user/ParasoR/script/cal_modified_hybrid_energy1.py . <br />
-    >$>cp /home/user/ParasoR/script/cal_stem.py . <br />
-    >$>cp /home/user/ParasoR/script/count_base_v1.py .<br />
-    >$>cp /home/user/ParasoR/script/features_predict.py . <br />
-    >$>cp /home/user/ParasoR/script/basecount.py .<br />
-    >$>cp /home/user/ParasoR/script/Dataset_Generator.py .<br />
-    >$>cp /home/user/ParasoR/script/RNAstructure/cal_hybrid.py RNAstructure/.<br />
-    >$>cp /home/user/ParasoR/script/ML_Prediction.py .<br />
-    >$>cp /home/user/ParasoR/script/Predict_Binding.py .<br />
-    >$>cp /home/user/ParasoR/script/baggingPU.py .<br />
-    >$>cp /home/user/ParasoR/script/*.sav .<br />
-    >$>cp /home/user/ParasoR/script/query.fa .<br />
-    >$>cp /home/user/ParasoR/script/target.fa .<br />
-    >$>cp /home/user/ParasoR/script/max_base_span.txt .<br />
+6.  Keep all the python (.py) and machine learning moel (.sav) files in /home/lncpred/ParasoR/script/ <br />
+    >$>cp /home/lncpred/ParasoR/script/Main.py . <br />
+    >$>cp /home/lncpred/ParasoR/script/Extract_Feature.py . <br />
+    >$>cp /home/lncpred/ParasoR/script/cal_modified_hybrid_energy1.py . <br />
+    >$>cp /home/lncpred/ParasoR/script/cal_stem.py . <br />
+    >$>cp /home/lncpred/ParasoR/script/count_base_v1.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/features_predict.py . <br />
+    >$>cp /home/lncpred/ParasoR/script/basecount.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/Dataset_Generator.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/RNAstructure/cal_hybrid.py RNAstructure/.<br />
+    >$>cp /home/lncpred/ParasoR/script/ML_Prediction.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/Predict_Binding.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/baggingPU.py .<br />
+    >$>cp /home/lncpred/ParasoR/script/*.sav .<br />
+    >$>cp /home/lncpred/ParasoR/script/query.fa .<br />
+    >$>cp /home/lncpred/ParasoR/script/target.fa .<br />
+    >$>cp /home/lncpred/ParasoR/script/max_base_span.txt .<br />
     **EVERY call must be in root Mode
 7.  Copy all the html and php files and supporting folders to 
     /home/user/ParasoR/script/<br />
-    >$>cp /home/user/ParasoR/script/index_1.html .<br />
-    >$>cp /home/user/ParasoR/script/*.php .<br />
-    >$>cp -a /home/user/ParasoR/script/contactform/. contactform/<br />
-    >$>cp -a /home/user/ParasoR/script/img/. img/<br />
-    >$>cp -a /home/user/ParasoR/script/lib/. lib/<br />
-    >$>cp -a /home/user/ParasoR/script/css/. css/<br />
-    >$>cp -a /home/user/ParasoR/script/js/. js/<br />
+    >$>cp /home/lncpred/ParasoR/script/index_1.html .<br />
+    >$>cp /home/lncpred/ParasoR/script/*.php .<br />
+    >$>cp -a /home/lncpred/ParasoR/script/contactform/. contactform/<br />
+    >$>cp -a /home/lncpred/ParasoR/script/img/. img/<br />
+    >$>cp -a /home/lncpred/ParasoR/script/lib/. lib/<br />
+    >$>cp -a /home/lncpred/ParasoR/script/css/. css/<br />
+    >$>cp -a /home/lncpred/ParasoR/script/js/. js/<br />
 8.  link php to the server
     Softlink:
     >$>cd var/www/html<br />
