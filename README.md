@@ -35,9 +35,9 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     *must be installed in non-root mode<br />
     >$>sh *.sh <br />
     >$>/home/lncpred/anaconda3/ <br />
-5.  Install LightGBM, Biopython and python 3.7
-    >$>/home/user/anaconda3/bin/pip install lightgbm <br />
-    >$>/home/user/anaconda3/bin/pip install biopython <br />
+5.  Install LightGBM, Biopython
+    >$>/home/lncpred/anaconda3/bin/pip install lightgbm <br />
+    >$>/home/lncpred/anaconda3/bin/pip install biopython <br />
 6.  Keep all the python (.py) and machine learning moel (.sav) files in 
     /home/user/ParasoR/script/ and cal_hybrid.py will be in RNAstructure/ only.<br />
     >$>cp /home/user/ParasoR/script/Main.py . <br />
