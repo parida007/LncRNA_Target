@@ -13,25 +13,25 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 
 ### How to Install and Run
 1. Login to the system as root user <br />
-    $> cd /home/user <br />
+    >$> cd /home/user <br />
 2. Download and Install PARASOR
-    $> git clone https://github.com/carushi/ParasoR <br />
+    >$> git clone https://github.com/carushi/ParasoR <br />
 3. Download and Install RNAstructure 6.0<br />
     User need to be registered first<br />
     Download RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
-    $>cd home/rootuser/ParasoR/script/<br />
-    $>wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
-    $>tar -xvzf RNAstructureLinuxTextInterfaces64bit.tgz <br />
-    $>cd RNAstructure <br />
-    $>cp cal_hybrid.py . (Copy cal_hybrid.py inside RNAstructure)<br />
+    >$>cd home/rootuser/ParasoR/script/<br />
+    >$>wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
+    >$>tar -xvzf RNAstructureLinuxTextInterfaces64bit.tgz <br />
+    >$>cd RNAstructure <br />
+    >$>cp cal_hybrid.py . (Copy cal_hybrid.py inside RNAstructure)<br />
 4.  Install Anaconda3
-    $>wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh <br />
+    >$>wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh <br />
     *must be installed in non-root mode<br />
-    $>sh *.sh <br />
-    $>/home/user/anaconda3/ <br />
+    >$>sh *.sh <br />
+    >$>/home/user/anaconda3/ <br />
 5.  Install LightGBM, Biopython and python 3.7
-    $>/home/user/anaconda3/bin/pip install lightgbm <br />
-    $>/home/user/anaconda3/bin/pip install biopython <br />
+    >$>/home/user/anaconda3/bin/pip install lightgbm <br />
+    >$>/home/user/anaconda3/bin/pip install biopython <br />
 6.  Keep all the python (.py) and machine learning moel (.sav) files in 
     /home/user/ParasoR/script/ and cal_hybrid.py will be in RNAstructure/ only.<br />
     $>cp /home/user/ParasoR/script/Main.py . <br />
