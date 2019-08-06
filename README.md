@@ -62,17 +62,7 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>cp -a /home/lncpred/ParasoR/script/lib/. lib/<br />
     >$>cp -a /home/lncpred/ParasoR/script/css/. css/<br />
     >$>cp -a /home/lncpred/ParasoR/script/js/. js/<br />
-8.  link php to the server
-    Softlink:
-    >$>cd var/www/html<br />
-    >$>sudo ln -s /home/user/ParasoR/script/ TargetPrediction<br />
-    >$>sudo visudo<br />
-    >$>www-data ALL = (ALL) NOPASSWD:ALL<br />
-    >$>Defaults  !requiretty
-9. To give permission to upload file from outside
-    >$>cd /home/sibun/ParasoR/<br />
-    >$>sudo chown nobody *<br />
-    >$>sudo chmod -R 777 *<br />
+
     
     
 
