@@ -51,7 +51,6 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>baggingPU.py<br />
     >$>*.sav[extract the model files from Model_files.tar.gz]<br /> 
     >$>max_base_span.txt<br />
-    **All the input as query.fa (LncRNA sequences) & target.fa(mRNA sequences)<br />
     **EVERY call must be in root Mode
 7.  Copy all the html and php files and supporting folders to 
     /home/user/ParasoR/script/<br />
