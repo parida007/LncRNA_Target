@@ -39,21 +39,21 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>/home/lncpred/anaconda3/bin/pip install lightgbm <br />
     >$>/home/lncpred/anaconda3/bin/pip install biopython <br />
 6.  Keep all the python (.py) and machine learning moel (.sav) files in /home/lncpred/ParasoR/script/ <br />
-    >$>cp /home/lncpred/ParasoR/script/Main.py . <br />
-    >$>cp /home/lncpred/ParasoR/script/Extract_Feature.py . <br />
-    >$>cp /home/lncpred/ParasoR/script/cal_modified_hybrid_energy1.py . <br />
-    >$>cp /home/lncpred/ParasoR/script/cal_stem.py . <br />
-    >$>cp /home/lncpred/ParasoR/script/count_base_v1.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/features_predict.py . <br />
-    >$>cp /home/lncpred/ParasoR/script/basecount.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/Dataset_Generator.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/ML_Prediction.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/Predict_Binding.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/baggingPU.py .<br />
-    >$>cp /home/lncpred/ParasoR/script/*.sav .<br />
-    >$>cp /home/lncpred/ParasoR/script/query.fa .<br />
-    >$>cp /home/lncpred/ParasoR/script/target.fa .<br />
-    >$>cp /home/lncpred/ParasoR/script/max_base_span.txt .<br />
+    >$>Main.py<br />
+    >$>Extract_Feature.py<br />
+    >$>cal_modified_hybrid_energy1.py<br />
+    >$>cal_stem.py<br />
+    >$>count_base_v1.py<br />
+    >$>features_predict.py<br />
+    >$>basecount.py<br />
+    >$>Dataset_Generator.py<br />
+    >$>ML_Prediction.py<br />
+    >$>Predict_Binding.py<br />
+    >$>baggingPU.py<br />
+    >$>*.sav<br />
+    >$>query.fa<br />
+    >$>target.fa<br />
+    >$>max_base_span.txt<br />
     **EVERY call must be in root Mode
 7.  Copy all the html and php files and supporting folders to 
     /home/user/ParasoR/script/<br />
