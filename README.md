@@ -4,7 +4,7 @@ Till date several research groups have come up with many target prediction tools
 LncrTar, is a target prediction tool, which overcomes the above mentioned hurdles and identifies the probable binding sites between lncRNA and mRNA along with determination of interaction energy. LncrTar comes up with two major findings. These calculations are done on the basis of the experimentally validated positive lncRNA-mRNA interaction information reported by . The feature set has been prepared from the sequence and binding information. Interaction confidence of the input sequence pair has been evaluated by 7 different machine learning models. The interaction confidence for input pair helps user to select the most putative interaction. The accessible segments between lncRNA and mRNA has been identified by using AccessE algorithm designed by us. The binding information among the accessible segments of lncRNA and its target can be visualized as well as downloaded.
 ### Prequisites
 Ubuntu environment<br />
-unrar software ( >sudo apt install unrar)<br />
+Install unrar if not there ( >sudo apt install unrar)<br />
 Python 2.7<br />
 Anaconda for Python 3.7<br />
 LightGBM <br />
