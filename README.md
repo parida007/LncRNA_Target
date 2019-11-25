@@ -5,7 +5,6 @@ LncrTar, is a target prediction tool, which overcomes the above mentioned hurdle
 ### Prequisites
 Ubuntu environment<br />
 Install unrar if not there ( >sudo apt install unrar)<br />
-Python 2.7<br />
 Anaconda for Python 3.7<br />
 LightGBM <br />
 RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
