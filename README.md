@@ -33,9 +33,9 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh <br />
     *must be installed in non-root mode<br />
     >$>sh *.sh <br />
-    set PATH so it includes user's private bin directories
-    PATH="/home/bic/anaconda3/bin:$PATH"
-    >$>/home/lncpred/anaconda3/ <br />
+    set PATH so it includes user's private bin directories<br />
+    PATH="/home/bic/anaconda3/bin:$PATH"<br />
+    
 5.  Install LightGBM, Biopython
     >$>/home/lncpred/anaconda3/bin/pip install lightgbm <br />
     >$>/home/lncpred/anaconda3/bin/pip install biopython <br />
