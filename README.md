@@ -11,12 +11,13 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 
 
 ### How to Install and Run
-1.  create an account<br /> 
+1.  create an account and add to sudoers<br /> 
     >$>sudo adduser lncpred<br />
+    >$>usermod -aG sudo lncpred<br />
 2.  Login as root user <br />
     >$>sudo su
 3.  Download and Install PARASOR
-    >$>cd /home/lncpredr<br />
+    >$>cd /home/lncpred<br />
     >$> git clone https://github.com/carushi/ParasoR <br />
     >$>cd ParasoR<br />
     >$>./configure<br />
@@ -34,11 +35,11 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     *must be installed in non-root mode<br />
     >$>sh *.sh <br />
     set PATH variable <br />
-    PATH="/home/bic/anaconda3/bin:$PATH"<br />
+    PATH="/home/lncpred/anaconda3/bin:$PATH"<br />
         
 5.  Install LightGBM, Biopython
-    >$>/home/lncpred/anaconda3/bin/pip install lightgbm <br />
-    >$>/home/lncpred/anaconda3/bin/pip install biopython <br />
+    >$>pip install lightgbm <br />
+    >$>pip install biopython <br />
 6.  Keep all the python (.py) and machine learning moel (.sav) files in /home/lncpred/ParasoR/script/ <br />
     >$>Main.py<br />
     >$>Extract_Feature.py<br />
