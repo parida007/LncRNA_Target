@@ -13,10 +13,11 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
 ### How to Install and Run
 1.  create an account and add to sudoers<br /> 
     >$>sudo adduser lncpred<br />
-    >$>usermod -aG sudo lncpred<br />
 2.  Login as root user <br />
-    >$>sudo su
-3.  Download and Install PARASOR
+    >$>sudo su <br />
+3.  Attach user account to sudoers file <br />
+    >$>usermod -aG sudo lncpred<br />
+4.  Download and Install PARASOR
     >$>cd /home/lncpred<br />
     >$> git clone https://github.com/carushi/ParasoR <br />
     >$>cd ParasoR<br />
@@ -24,22 +25,12 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>make<br />
     >$>make install<br />
     >$>autoreconf -ivf<br />
-3. Download and Install RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
+5. Download and Install RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
     >$>cd /home/lncpred/ParasoR/script<br />
     >$>wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
     >$>tar -xvzf RNAstructureLinuxTextInterfaces64bit.tgz <br />
     >$>cd RNAstructure <br />
     >$>cp cal_hybrid.py . (Copy cal_hybrid.py inside RNAstructure)<br />
-4.  Install Anaconda3
-    >$>wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh <br />
-    *must be installed in non-root mode<br />
-    >$>sh *.sh <br />
-    set PATH variable <br />
-    PATH="/home/lncpred/anaconda3/bin:$PATH"<br />
-        
-5.  Install LightGBM, Biopython
-    >$>pip install lightgbm <br />
-    >$>pip install biopython <br />
 6.  Keep all the python (.py) and machine learning moel (.sav) files in /home/lncpred/ParasoR/script/ <br />
     >$>Main.py<br />
     >$>Extract_Feature.py<br />
@@ -52,10 +43,20 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>ML_Prediction.py<br />
     >$>Predict_Binding.py<br />
     >$>baggingPU.py<br />
-    >$>*.sav[extract the model files from Model_Files.rar]<br /> 
+    >$>Model_Files.rar[extract the model files from the rar files and unrar using <b>unrar x Model_Files.rar</b>]<br /> 
     >$>max_base_span.txt<br />
     **EVERY call must be in root Mode
-7.  Copy all the html and php files and supporting folders to 
+7.  Install Anaconda3 (All the steps in section 7 and section 8 must be executed in non root mode)
+    >$>wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh <br />
+    *must be installed in non-root mode<br />
+    >$>sh *.sh <br />
+    set PATH variable <br />
+    PATH="/home/lncpred/anaconda3/bin:$PATH"<br />
+       
+8.  Install LightGBM, Biopython
+    >$>pip install lightgbm <br />
+    >$>pip install biopython <br />
+9.  Copy all the html and php files and supporting folders to 
     /home/user/ParasoR/script/<br />
     >$>cp /home/lncpred/ParasoR/script/index_1.html .<br />
     >$>cp /home/lncpred/ParasoR/script/*.php .<br />
@@ -64,7 +65,7 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>cp -a /home/lncpred/ParasoR/script/lib/. lib/<br />
     >$>cp -a /home/lncpred/ParasoR/script/css/. css/<br />
     >$>cp -a /home/lncpred/ParasoR/script/js/. js/<br />
-8.  To run lncpred:<br />
+10.  To run lncpred:<br />
     >$>python Main.py<br />
     **All the input must be named as query.fa (LncRNA sequences) & target.fa(mRNA sequences)<br />
     Result:<br />
