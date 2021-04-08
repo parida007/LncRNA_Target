@@ -25,8 +25,8 @@ RNAstructure version 6.0 (64-bit), released on September 21, 2017.<br />
     >$>make<br />
     >$>make install<br />
     >$>autoreconf -ivf<br />
-5.  Download LncRTPred project files from github
-    >$> git clone https://github.com/parida007/LncRTPred <br />
+5.  Download LncRNA_Target project files from github
+    >$> git clone https://github.com/parida007/LncRNA_Target <br />
 6. Download and Install RNAstructure 6.0 sep 21 2017;Command line interfaces;download 64bit-linux(53.71mb)<br />
     >$>cd /home/lncpred/ParasoR/script<br />
     >$>wget http://rna.urmc.rochester.edu/Releases/6.0/RNAstructureLinuxTextInterfaces64bit.tgz <br />
